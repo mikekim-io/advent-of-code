@@ -4,7 +4,7 @@ with open('aoc_22_day_05_input.txt', 'r') as f:
     moves = []
     stacks, stack_indices = {}, {}
     stack, moves_txt = f.read().split('\n\n')
-    stack_lines = raw_lines = stack.split('\n')
+    stack_lines = stack.split('\n')
     # parse move list
     for move in moves_txt.split('\n'):
         moves.append([int(i) for i in re.findall(r'\d+', move.strip())])
