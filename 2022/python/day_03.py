@@ -1,4 +1,4 @@
-with open('aoc_22_day_03_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_03_input.txt', 'r') as f:
     rucksacks = [line.strip('\n') for line in f.readlines()]
 
 

@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open('aoc_22_day_07_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_07_input.txt', 'r') as f:
     commands = [line.split(' ') for line in f.read().split('\n')]
     sizes = defaultdict(int)
     cd = []

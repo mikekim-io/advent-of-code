@@ -1,4 +1,4 @@
-with open('aoc_22_day_06_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_06_input.txt', 'r') as f:
     data = f.read().split('\n')[0]
 
 
