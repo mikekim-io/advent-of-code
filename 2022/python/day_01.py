@@ -1,4 +1,4 @@
-with open('aoc_22_day_01_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_01_input.txt', 'r') as f:
     # groups of calories will be split by \n\n
     raw_lines = f.read().strip().split('\n\n')
     raw_calories = [list(map(int, line.split('\n'))) for line in raw_lines]

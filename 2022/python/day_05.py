@@ -1,6 +1,6 @@
 import re
 
-with open('aoc_22_day_05_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_05_input.txt', 'r') as f:
     moves = []
     stacks, stack_indices = {}, {}
     stack, moves_txt = f.read().split('\n\n')

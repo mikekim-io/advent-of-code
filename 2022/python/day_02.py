@@ -1,4 +1,4 @@
-with open('aoc_22_day_02_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_02_input.txt', 'r') as f:
     rounds = []
     for line in f.readlines():
         rounds.append(line.strip('\n').split(' '))

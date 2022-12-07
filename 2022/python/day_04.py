@@ -1,6 +1,6 @@
 import re
 
-with open('aoc_22_day_04_input.txt', 'r') as f:
+with open('../inputs/aoc_22_day_04_input.txt', 'r') as f:
     pairs = []
     for line in f.readlines():
         pairs.append([int(i) for i in re.findall(r'\d+', line.strip())])
