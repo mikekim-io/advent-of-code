@@ -29,7 +29,6 @@ const aoc23Day2Part1 = (games) => {
     red: 12,
   };
 
-  games.forEach((game) => console.log(game.data));
   // return only ids where all games are valid
   let filtered = games.filter(({ data }) => {
     // reduce to only maxes
@@ -60,7 +59,6 @@ const aoc23Day2Part1 = (games) => {
 };
 
 const aoc23Day2Part2 = (games) => {
-  games.forEach((game) => console.log(game.data));
   // return powers
   let powers = games.map(({ data }) => {
     // reduce to only maxes
@@ -84,7 +82,6 @@ const aoc23Day2Part2 = (games) => {
     ];
     return blue * green * red;
   });
-  console.log(powers);
   return powers.reduce((a, b) => {
     return a + b;
   }, 0);
